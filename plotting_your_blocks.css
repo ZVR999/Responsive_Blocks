@@ -1,35 +1,36 @@
 /*CSS reset settings here*/
 *{
-    margin: 10px;
-    padding: 5px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
    }
    #wrapper{
     width: 100%;
     background-color: silver;
     margin: 0px auto;
     display: inline-block;
+    margin: 1em;
    }
    #header{
     min-height: 150px;
     background-color: green;
-    width: 100%;
    }
    #navigation{
     min-height: 300px;
-    width: 180px;
+    width: 20%;
     background-color: blue;
     display: inline-block;
    }
    #main_content{
     min-height: 400px;
-    width: 735px;
+    width: 77%;
     background-color: red;
     vertical-align: top;
     display: inline-block;
    }
    .subcontents{
     min-height: 200px;
-    width: 200px;
+    width: 32%;
     background-color: yellow;
     display: inline-block;
     margin-right:2px;
@@ -37,7 +38,7 @@
    }
    #advertisement{
     min-height: 100px;
-    width: 654px;
+    width: 97%;
     background-color: purple;
     display: inline-block;
    }
