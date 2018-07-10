@@ -1,0 +1,59 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+   body{
+       padding: 1rem;
+   }
+   #header{
+    height: 10rem;
+    background-color: green;
+    margin-bottom: 2rem;
+   }
+   #navigation{
+    height: 21rem;
+    width: 16rem;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+   }
+   #main_content{
+    height: 28rem;
+    width: 45rem;
+    background-color: red;
+    display: inline-block;
+    padding: 1rem 0rem;
+   }
+    .subcontents{
+    height: 13rem;
+    width: 13rem;
+    background-color: yellow;
+    display: inline-block;
+    margin: 0rem 0.4rem;
+   }
+   #advertisement{
+    height: 8rem;
+    width: 42rem;
+    background-color: purple;
+    margin-top: 2rem;
+   }
+   @media only screen and (max-width:480px){
+       #navigation.sm-1{
+           display: none;
+       }
+   }
+   @media only screen and (min-width:481px){
+       #navigation.sm-1{
+            display: none;
+        }
+        #main_content.med{
+           width: 100%;
+       }
+    }
+   @media only screen and (min-width:1024px){
+        .lg-1{
+           width: 100%;
+       }
+   }
