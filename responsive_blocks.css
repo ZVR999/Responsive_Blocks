@@ -2,58 +2,43 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
    }
-   body{
-       padding: 1rem;
+   #wrapper{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 15px;
    }
    #header{
-    height: 10rem;
+    height: 150px;
     background-color: green;
-    margin-bottom: 2rem;
+    margin-bottom: 15px;
    }
    #navigation{
-    height: 21rem;
-    width: 16rem;
+    height: 300px;
+    width: 200px;
     background-color: blue;
     display: inline-block;
     vertical-align: top;
    }
    #main_content{
-    height: 28rem;
-    width: 45rem;
+    height: 400px;
+    width: 700px;
     background-color: red;
     display: inline-block;
-    padding: 1rem 0rem;
+    margin-left: 15px;
+    padding: 15px;
    }
-    .subcontents{
-    height: 13rem;
-    width: 13rem;
+   .subcontents{
+    height: 200px;
+    width: 210px;
     background-color: yellow;
     display: inline-block;
-    margin: 0rem 0.4rem;
+    margin-right: 15px;
    }
    #advertisement{
-    height: 8rem;
-    width: 42rem;
+    height: 120px;
+    width: 660px;
     background-color: purple;
-    margin-top: 2rem;
-   }
-   @media only screen and (max-width:480px){
-       #navigation.sm-1{
-           display: none;
-       }
-   }
-   @media only screen and (min-width:481px){
-       #navigation.sm-1{
-            display: none;
-        }
-        #main_content.med{
-           width: 100%;
-       }
-    }
-   @media only screen and (min-width:1024px){
-        .lg-1{
-           width: 100%;
-       }
+    margin-top: 15px;
    }
